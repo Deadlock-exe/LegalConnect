@@ -5,7 +5,7 @@ signUpButton.addEventListener('click', () => {
     const signupContainer = document.createElement('div');
     signupContainer.classList.add('signup_container');
     const customerSignup = document.createElement('a');
-    customerSignup.href = '#';
+    customerSignup.href = './signuppage.html';
     const serviceProviderSignup = document.createElement('a');
     serviceProviderSignup.href = '#';
     const customerSignupButton = document.createElement('button');
