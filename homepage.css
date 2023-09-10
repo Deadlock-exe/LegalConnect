@@ -133,11 +133,58 @@ body {
 } */
 .homepage_image img{
     width: 40rem;
-    filter: drop-shadow(4px 4px 4px black);
+    filter: drop-shadow(4px 4px 12px black);
 }
 
 
 .about{
     background-color: #D2AE6D;
-    height: 600px;
+
+}
+.about_heading{
+    text-align: center;
+}
+.about_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about_content_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 60%;
+}
+.about_content_image{
+    width: 40%;
+}
+.about_content_image img{
+    width: 100%;
+}
+
+
+.services_heading{
+    text-align: center;
+}
+.services_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.service{
+    width: 30%;
+}
+.line{
+    width: 0.3%;
+    background-color: black;
+    height: 520px;
+}
+
+
+.onboard{
+    background-color: #D2AE6D;
+    height: 500px;
+    text-align: center;
 }
