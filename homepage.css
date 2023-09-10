@@ -16,6 +16,7 @@ body {
 #navbar_logo {
     width: 4rem;
     margin-left: 1.5rem;
+    background-color: #000000;
 }
 
 @media screen and (max-width:600px) {
@@ -40,20 +41,21 @@ body {
 }
 
 .nav-link {
-    color: #ffffff !important;
+    color: black !important;
     font-weight: 500;
     font-size: 1rem !important;
 }
 
 .nav-link:hover {
-    color: #000000 !important;
+    color: #af8a34 !important;
 }
 
 @media screen and (min-width:1000px) {
     #current {
-        background-color: #353535 !important;
+        background-color: #dbbc83
+        !important;
         border-radius: 9px;
-        color: white !important;
+        color: rgb(0, 0, 0) !important;
     }
 
 }
@@ -73,13 +75,14 @@ body {
 }
 
 #login_button:hover {
-    background-color: #ffffff !important;
-    border-color: #ffffff;
+    background-color: #D2AE6D
+    !important;
+    border-color: #D2AE6D;
     color: #000000 !important;
 }
 
 .name_nav {
-    color: white;
+    color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
 }
@@ -93,14 +96,15 @@ body {
 
 
 .bgCover1 {
-    background-image: url(bg.png);
+    /* background-image: url(bg.png); */
+    background-color: rgb(245, 245, 245);
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
     overflow: auto;
     position: fixed;
-    background-color: var(--white);
+    /* background-color: var(--white); */
     z-index: -1;
 }
 
@@ -110,9 +114,9 @@ body {
 .homepage{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 670px;
-    color: white;
+    color: black;
 }
 .mainName{
     font-family: 'Anton';
@@ -123,22 +127,17 @@ body {
 
 
 
-
+/* 
 .homepage_image{
-    width: 50%;
+    width: 50.5%;
+} */
+.homepage_image img{
+    width: 40rem;
+    filter: drop-shadow(4px 4px 4px black);
 }
 
 
 .about{
-    background-image: url(bg_alt.png);
-    background-size: cover;
-}
-.join{
-    display: flex;
-    justify-content: space-around;
-    align-items: top;
-    color: white;
-}
-.vision{
-    text-align: center;
+    background-color: #D2AE6D;
+    height: 600px;
 }
