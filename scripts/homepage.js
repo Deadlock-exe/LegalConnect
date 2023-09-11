@@ -26,3 +26,11 @@ signUpButton.addEventListener('click', () => {
 
     console.log('signup button clicked');
 }, { once: true });
+
+const faqs = document.querySelectorAll('.faq');
+
+faqs.forEach((faq) => {
+    faq.addEventListener('click', () => {
+        faq.classList.toggle('active');
+    });
+});
