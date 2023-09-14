@@ -133,7 +133,7 @@ body {
 } */
 .homepage_image img{
     width: 40rem;
-    filter: drop-shadow(4px 4px 12px black);
+/*     filter: drop-shadow(4px 4px 12px black); */
 }
 
 
