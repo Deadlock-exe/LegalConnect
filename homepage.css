@@ -70,7 +70,7 @@ body {
 
 #login_button {
     color: #ffffff !important;
-    border: 2px solid #ffffff !important;
+    border: 2px solid #000000 !important;
     background-color: black !important;
 }
 
@@ -187,4 +187,105 @@ body {
     background-color: #D2AE6D;
     height: 500px;
     text-align: center;
+}
+
+
+
+.review{
+    padding: 5rem 5rem;
+    text-align: center;
+}
+.review_heading{
+    padding-bottom: 3rem;
+}
+.review_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.review_box{
+    box-shadow: 1px 1px 20px 0.2px rgb(192, 191, 191);
+    /* width: 30%; */
+    transition: 0.3s;
+    margin: 1rem 1rem;
+
+}
+.review_box:hover{
+    box-shadow: 1px 1px 35px 0.2px rgb(202, 201, 201);
+    transition: 0.3s;
+    transform: scale(1.02);
+
+}
+.box_image img{
+    width: 4rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+.box_name{
+    padding: 0.5rem 1rem;
+}
+.box_text{
+    padding: 0rem 1rem;
+}
+.box_top.box_name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_stars{
+    margin: 2rem 0rem;
+}
+
+
+/* Style the footer container */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding-top: 50px;
+}
+
+/* Center the footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Style the logo */
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Style the contact information */
+.footer-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+/* Style the social media icons */
+.footer-social h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+/* Style the bottom section with copyright information */
+.footer-bottom {
+    text-align: center;
+    background-color: #222;
+    padding: 15px 0;
+    margin-top: 2rem;
 }
